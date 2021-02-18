@@ -6,6 +6,7 @@
     <title>Compartilhagram</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <%= favicon_link_tag('favicon.ico') %>
 
     <%= stylesheet_pack_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
@@ -35,5 +36,7 @@
 
 
     <%= yield %>
+
+    <%= render "layouts/user_actions_modal" %>
   </body>
 </html>

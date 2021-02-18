@@ -109,7 +109,7 @@ main.posts-page {
 .post .image {
   display: flex;
   align-items: center;
-  min-height: 500px;
+  min-height: 350px;
 }
 
 .post .image img {
